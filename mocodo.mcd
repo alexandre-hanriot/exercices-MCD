@@ -1,0 +1,11 @@
+PERFORMS, 0N SINGER, 0N CONCERT_HALL: date
+SINGER: singer name, nationality
+RECORDS, 11 ALBUM, 0N SINGER
+
+CONCERT_HALL: hall name, city
+CONTAINS, 1N ALBUM, 11 SONG
+ALBUM: label
+
+:
+SONG: title
+:
